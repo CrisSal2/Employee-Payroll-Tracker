@@ -9,19 +9,30 @@ const collectEmployees = function() {
   const lastName = prompt("Enter employee's last name")
   const salary = prompt("Enter employee's salary")
 
-  /* const employee = {
+  const employee = {
     firstName,
     lastName,
     salary,
-  } */
+  }
 
   employees.push(employee);
+
+  confirm('Would you like to add another employee?'); {
+
+    if (confirm === true) {
+      collectEmployees.employee;
+      employees.push(employee);
+      } else if (confirm === false) {
+      employees.push(employee);
+    }
+  }
 
   console.log(employees)
 
   return employees;
 }
 
+/* add more employees function, if confirm is true, run collect empoloyees, if false - end loop */
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
