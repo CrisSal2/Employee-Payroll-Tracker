@@ -15,9 +15,11 @@ const collectEmployees = function() {
     salary,
   }
 
-  employee.push(employees);
+  employees.push(employee);
 
-  return employee;
+  console.log(employees)
+
+  return employees;
 }
 
 
