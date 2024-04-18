@@ -9,11 +9,11 @@ const collectEmployees = function() {
   const lastName = prompt("Enter employee's last name")
   const salary = prompt("Enter employee's salary")
 
-  const employee = {
+  /* const employee = {
     firstName,
     lastName,
     salary,
-  }
+  } */
 
   employee.push(employees);
 
